@@ -1,0 +1,98 @@
+{
+  "_comment": "跨期去重指纹表。每期发布后由本地任务更新。key = 条目标识（建议用 URL 或 规则条款号），value = 首次发现信息。",
+  "_schema": {
+    "id": "条目稳定标识，如 apple-guidelines-2.5.19 或来源 URL",
+    "title": "条目标题",
+    "source": "一手来源 URL",
+    "source_type": "primary | secondary",
+    "first_seen_issue": "首次报道的期号，如 2026-W48",
+    "first_seen_at": "ISO-8601 抓取时间",
+    "effective_date": "生效日期，可为 null",
+    "deadline": "截止日期，可为 null",
+    "status": "new | unchanged | updated | resolved"
+  },
+  "entries": {
+    "apple-news-2026-11-02-age-rating-descriptors": {
+      "title": "App Store Connect 新增年龄分级内容描述符（Shared Location / Dating and Relationships）",
+      "source": "https://developer.apple.com/news/",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2026-11-16",
+      "deadline": "2027-01-12",
+      "status": "new"
+    },
+    "apple-guidelines-1.2-2026-10-16": {
+      "title": "App Review Guidelines 1.2 修订：AI 内容创作 App 四道防线与非自愿私密图像",
+      "source": "https://developer.apple.com/app-store/review/guidelines/",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2026-10-16",
+      "deadline": null,
+      "status": "new"
+    },
+    "apple-guidelines-2.5.19-2026-10-16": {
+      "title": "App Review Guidelines 2.5.19 新增：隐藏功能与代码混淆，违者下架并终止开发者账号",
+      "source": "https://developer.apple.com/app-store/review/guidelines/",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2026-10-16",
+      "deadline": null,
+      "status": "new"
+    },
+    "apple-guidelines-2.3.14-2026-10-16": {
+      "title": "App Review Guidelines 2.3.14 新增：creative assets",
+      "source": "https://developer.apple.com/news/",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2026-10-16",
+      "deadline": null,
+      "status": "new"
+    },
+    "apple-guidelines-section5-2026-10-16": {
+      "title": "App Review Guidelines Section 5 澄清：人口贩运与儿童剥削相关 App 移除并阻止替代分发",
+      "source": "https://developer.apple.com/news/",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2026-10-16",
+      "deadline": null,
+      "status": "new"
+    },
+    "cn-appstore-aigc-required-fields-UNVERIFIED": {
+      "title": "中国区 App Store Connect 新增 AIGC 服务声明与备案信息 + 安全评估证明两项必填",
+      "source": "https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20261118193425918226790",
+      "source_type": "secondary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2026-11-16",
+      "deadline": "2027-01-31",
+      "status": "new",
+      "verification_gap": "苹果全球 Developer News 页无对应条目；需登录 App Store Connect 后台确认字段真名与截止日期"
+    },
+    "cn-aigc-labeling-measure-2025-09-01": {
+      "title": "《人工智能生成合成内容标识办法》施行：显式标识 + 隐式元数据三要素，禁止提供去标识工具或服务",
+      "source": null,
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": "2025-09-01",
+      "deadline": null,
+      "status": "unchanged",
+      "verification_gap": "本期未重新抓取原文，依据既有核实记录"
+    },
+    "enforcement-tipsy-polybuzz-delisted": {
+      "title": "执法实例：PolyBuzz（2026-10-15）与 Tipsy Chat（约 2026-10-21/22）从海外 App Store 下架",
+      "source": "https://www.huxiu.com/article/4900289.html",
+      "source_type": "secondary",
+      "first_seen_issue": "2026-W48",
+      "first_seen_at": "2026-11-22T00:00:00+08:00",
+      "effective_date": null,
+      "deadline": null,
+      "status": "new"
+    }
+  }
+}
