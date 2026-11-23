@@ -18,9 +18,10 @@
       "source_type": "primary",
       "first_seen_issue": "2026-W48",
       "first_seen_at": "2026-11-22T00:00:00+08:00",
-      "effective_date": "2026-11-16",
+      "effective_date": "2026-11-19",
       "deadline": "2027-01-12",
-      "status": "new"
+      "status": "updated",
+      "update_note": "2026-W48-r2：ASC Release Notes 11-19 原文确认生效日为 2026-11-19（此前按 11-02 公告记 11-16）；新增巴西自动定级规则 Shared Location→A16、Dating and Relationships→A18"
     },
     "apple-guidelines-1.2-2026-10-16": {
       "title": "App Review Guidelines 1.2 修订：AI 内容创作 App 四道防线与非自愿私密图像",
@@ -30,7 +31,7 @@
       "first_seen_at": "2026-11-22T00:00:00+08:00",
       "effective_date": "2026-10-16",
       "deadline": null,
-      "status": "new"
+      "status": "unchanged"
     },
     "apple-guidelines-2.5.19-2026-10-16": {
       "title": "App Review Guidelines 2.5.19 新增：隐藏功能与代码混淆，违者下架并终止开发者账号",
@@ -40,7 +41,7 @@
       "first_seen_at": "2026-11-22T00:00:00+08:00",
       "effective_date": "2026-10-16",
       "deadline": null,
-      "status": "new"
+      "status": "unchanged"
     },
     "apple-guidelines-2.3.14-2026-10-16": {
       "title": "App Review Guidelines 2.3.14 新增：creative assets",
@@ -50,7 +51,7 @@
       "first_seen_at": "2026-11-22T00:00:00+08:00",
       "effective_date": "2026-10-16",
       "deadline": null,
-      "status": "new"
+      "status": "unchanged"
     },
     "apple-guidelines-section5-2026-10-16": {
       "title": "App Review Guidelines Section 5 澄清：人口贩运与儿童剥削相关 App 移除并阻止替代分发",
@@ -60,18 +61,19 @@
       "first_seen_at": "2026-11-22T00:00:00+08:00",
       "effective_date": "2026-10-16",
       "deadline": null,
-      "status": "new"
+      "status": "unchanged"
     },
     "cn-appstore-aigc-required-fields-UNVERIFIED": {
-      "title": "中国区 App Store Connect 新增 AIGC 服务声明与备案信息 + 安全评估证明两项必填",
-      "source": "https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20261118193425918226790",
-      "source_type": "secondary",
+      "title": "中国区 App Store Connect 新增 AIGC 服务声明与安全评估声明必填（App Compliance 页）",
+      "source": "https://developer.apple.com/help/app-store-connect/manage-compliance-information/view-china-mainland-compliance-information",
+      "source_type": "primary",
       "first_seen_issue": "2026-W48",
       "first_seen_at": "2026-11-22T00:00:00+08:00",
       "effective_date": "2026-11-16",
       "deadline": "2027-01-31",
-      "status": "new",
-      "verification_gap": "苹果全球 Developer News 页无对应条目；需登录 App Store Connect 后台确认字段真名与截止日期"
+      "status": "updated",
+      "verification_gap": null,
+      "update_note": "2026-W48-r2：二手升级为一级一手确认（ASC Release Notes 2026-11-16 + Apple 帮助文档中国大陆合规信息页）。细节：AIGC 声明=LLM/算法备案号+备案名称；第三方模型须上传含备案号且授权主体与备案主体一致的授权协议；安全评估声明=全国互联网安全管理服务平台通过截图+盖章报告；核验不通过则中国大陆不予上架。剩余尾巴：后台字段显示名待登录确认。key 保留原标识以维持跨期去重稳定性"
     },
     "cn-aigc-labeling-measure-2025-09-01": {
       "title": "《人工智能生成合成内容标识办法》施行：显式标识 + 隐式元数据三要素，禁止提供去标识工具或服务",
@@ -82,7 +84,7 @@
       "effective_date": "2025-09-01",
       "deadline": null,
       "status": "unchanged",
-      "verification_gap": "本期未重新抓取原文，依据既有核实记录"
+      "verification_gap": "2026-W48-r2：GB 45438—2025 国标详情页复核失败（std.samr.gov.cn 502），下期重试"
     },
     "enforcement-tipsy-polybuzz-delisted": {
       "title": "执法实例：PolyBuzz（2026-10-15）与 Tipsy Chat（约 2026-10-21/22）从海外 App Store 下架",
@@ -92,7 +94,69 @@
       "first_seen_at": "2026-11-22T00:00:00+08:00",
       "effective_date": null,
       "deadline": null,
+      "status": "unchanged"
+    },
+    "cac-beian-system-launch-2026-11-09": {
+      "title": "网信办：互联网新技术新应用信息服务备案系统上线（beian.cac.gov.cn，一体化生成式AI/算法/深度合成/区块链备案；原算法备案系统与区块链备案系统停用）",
+      "source": "https://www.cac.gov.cn/2026-11/09/c_1795978604463007.htm",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48-r2",
+      "first_seen_at": "2026-11-23T14:30:00+08:00",
+      "effective_date": "2026-11-09",
+      "deadline": null,
       "status": "new"
+    },
+    "cac-generative-ai-filing-announcement-2026-11-20": {
+      "title": "网信办：生成式AI服务已备案信息公告（2026年9–10月）：新增备案133款/登记224款，累计1245/955；重申已上线应用须在显著位置公示模型名称+备案号或上线编号",
+      "source": "https://www.cac.gov.cn/2026-11/20/c_1796918603542950.htm",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48-r2",
+      "first_seen_at": "2026-11-23T14:30:00+08:00",
+      "effective_date": "2026-11-20",
+      "deadline": null,
+      "status": "new"
+    },
+    "nrta-microdrama-special-campaign-2026-11": {
+      "title": "广电总局：新一轮微短剧低俗化同质化专项治理（2026-11-01 至 12月底）；治理AI微短剧盗脸偷声、未备案特殊题材、宣推与弹幕低俗、推荐同质化",
+      "source": "https://www.nrta.gov.cn/art/2026/11/6/art_114_74410.html",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48-r2",
+      "first_seen_at": "2026-11-23T14:30:00+08:00",
+      "effective_date": "2026-11-01",
+      "deadline": "2026-12-31",
+      "status": "new"
+    },
+    "apple-asc-odr-deprecation-2026-11-12": {
+      "title": "苹果：2027年初起 App Store Connect 不再接受新App/未用过ODR的App上传含 On-Demand Resources 的构建包，建议迁移 Background Assets",
+      "source": "https://developer.apple.com/help/app-store-connect/release-notes/",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48-r2",
+      "first_seen_at": "2026-11-23T14:30:00+08:00",
+      "effective_date": "2026-11-12",
+      "deadline": null,
+      "status": "new",
+      "update_note": "截止日原文为「2027年初」，无具体日期"
+    },
+    "apple-tax-price-update-2026-11-17": {
+      "title": "苹果：非洲四国VAT/数字税 + 加州SaaS税调整收益与价格；2026-12-03 价格平等化调整；定价页新增SaaS税务属性",
+      "source": "https://developer.apple.com/news/?id=4o5ie73a",
+      "source_type": "primary",
+      "first_seen_issue": "2026-W48-r2",
+      "first_seen_at": "2026-11-23T14:30:00+08:00",
+      "effective_date": "2026-12-03",
+      "deadline": "2026-12-03",
+      "status": "new"
+    },
+    "google-play-aigc-policy-UNVERIFIED": {
+      "title": "Google Play AI生成内容政策（2025-07纳入开发者计划政策）及2026-07政策更新截止日期序列（含2027-01-27）",
+      "source": "https://juejin.cn/post/7543194718487592999",
+      "source_type": "secondary",
+      "first_seen_issue": "2026-W48-r2",
+      "first_seen_at": "2026-11-23T14:30:00+08:00",
+      "effective_date": null,
+      "deadline": null,
+      "status": "new",
+      "verification_gap": "developer.android.com 与 support.google.com 本期直连超时；下期重试政策页与公告页，或改查 Google Developers 官方博客快照"
     }
   }
 }
